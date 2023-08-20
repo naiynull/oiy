@@ -6,7 +6,7 @@ export function RouteSoftware() {
     <Routes>
        
         <Route path="/" element={<PageHome />} /> 
-        <Route path="/personagem" element={< PagePersonagens />} />
+        <Route path="/personagens" element={< PagePersonagens />} />
         <Route path="/sinopse" element={<PageSinopse />} />
         <Route path="/cadastro" element={<PageCadastro />} />
     </Routes>

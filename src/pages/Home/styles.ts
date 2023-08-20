@@ -2,25 +2,36 @@ import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
 
 
-export const Inicial = styled.main`
-    height: 100vh;
+export const testo = styled.section`
+.texto{
+    padding-left: 1rem;
+    justify-content:center;
+    margin-top: 12vh;
+    width: 40%;
+    h1{
+        padding-left: 3rem;
+        text-decoration: none;
+        border: none;
+        font-size: 50px;
+        color:${colors.white};
+        font-family:'The Wild Breath of Zelda';
+    }
+    p{
+        text-decoration: none;
+        border: none;
+        font-size: 30px;
+        color:${colors.white}; 
+    }
+}
 `
 
-
-export const Igm = styled.section`
-    display: flex;
-    justify-content:flex-end;
-    width: 100%;
-    img{
-        width: 76rem;
-    }
- `
 
 export const Texs = styled.section`
   li{
     display: flex;
     justify-content:center;
-    margin-top: 12vh;
+    padding-right:25rem;
+    margin-top: 45vh;
   }
 
     #li-cads {
@@ -54,23 +65,26 @@ export const Texs = styled.section`
 
 export const Video = styled.section`
     display: flex;
-    justify-content:center;
+    justify-content:flex-end;
     padding-right:4rem;
-    align-items:flex-end;
-    margin-top:55vh;
-    video{
-        width: 300px;
+    margin-top:6rem;
+    iframe{
         padding-left: 3rem;
         align-items:flex-end;
+        -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+         filter: blur(5px);
     }
+    iframe:hover{
+        -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
+         filter: blur(0px);
+    }
+    .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    margin-left: 10px;
+}
 
 `
-export const textot = styled.section`
-    padding-top: 6rem;
-    width: 40%;
-    p{
-    color:${colors.white};
-    font-weight: bold;
-    }
- `
+
 
