@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
     border: 0;
     box-sizing: border-box;
+
   }
  
 `
@@ -14,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
 export const colors = {
     lite: "#2E8080",
     white: "#FFF",
-    preto: "#000"
+    preto: "#000",
+    text: "#919a8b "
   }
    

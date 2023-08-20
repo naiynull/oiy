@@ -28,6 +28,8 @@ export const Header = styled.header`
     align-items:center;
     font-size:26px;
     justify-content:space-evenly;
+    font-family: 'The Wild Breath of Zelda', sans-serif;
+                                                
   }
   nav ul a{
     text-decoration:none;

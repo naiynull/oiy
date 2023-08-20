@@ -18,15 +18,14 @@ export function Header() {
                         <a href="/home ">Home</a>
                     </li>
                     <li>
-                        <a href="/personagens">Personagens
-                        </a>
+                        <a href="/personagens">Personagens</a>
                     </li>
                     <li>
                         <a href="/Sinopse">Sinopse</a>
                     </li>
                 </ul>
             </S.NavBar>
-            
+
         </S.Header>
 
     )
