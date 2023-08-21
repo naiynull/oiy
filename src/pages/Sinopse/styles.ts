@@ -7,7 +7,7 @@ export const Inicial = styled.main`
 `
 
 export const tata = styled.section`
-
+ display: flex;
 * {
   box-sizing: border-box;
 }
@@ -73,7 +73,7 @@ h1 {
 
 export const textot = styled.section`
   margin-top:80vh;
-
+ display: flex;
   img:hover{
     
   }
