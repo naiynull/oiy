@@ -3,13 +3,13 @@ import { colors } from "../../styles/GlobalStyle"
 
 
 export const testo = styled.section`
+ display: flex;
+    justify-content:flex-end;
 .texto{
-    padding-left: 1rem;
-    justify-content:center;
-    margin-top: 12vh;
+    margin-top: 30vh;
     width: 40%;
     h1{
-        padding-left: 3rem;
+        padding-left: 6rem;
         text-decoration: none;
         border: none;
         font-size: 50px;
@@ -30,8 +30,7 @@ export const Texs = styled.section`
   li{
     display: flex;
     justify-content:center;
-    padding-right:25rem;
-    margin-top: 40vh;
+    margin-top: 37vh;
   }
 
     #li-cads {

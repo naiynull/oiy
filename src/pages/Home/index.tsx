@@ -1,5 +1,5 @@
 import * as S from "./styles"
-import fundo from "../../assets/fundo.png"
+import fundo from "../../assets/j.gif"
 import { ComponentHeader } from "../../components"
 import link from "../../assets/link.png"
 
@@ -20,12 +20,12 @@ export function Home() {
                <iframe width="360" height="205" src="https://www.youtube.com/embed/LjN1bs_6b68?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </section> 
             </S.Video>  */}
-            <S.testo>
+            {/* <S.testo>
             <div className="texto">
                 <h1>The Legend of Zelda</h1>
                 <p>The Legend of Zelda é uma série de jogos eletrônicos<br/>da Nintendo criada em  1986 por Shigeru Miyamoto e<br/> Takashi Tezuka. É centrado em jogos eletrônicos<br/> de ação e aventura e alguns elementos de RPG.</p>
             </div>
-            </S.testo>
+            </S.testo> */}
           
           
             <S.Texs>
