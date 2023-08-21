@@ -1,13 +1,13 @@
 import * as S from "./styles"
-
-import fundo from "../../assets/fundo02.png"
+import fundo from "../../assets/fundo.png"
 import { ComponentHeader } from "../../components"
 import link from "../../assets/link.png"
+
 export function Home() {
     return (
 
         <section style={{
-            height: '100vh',
+            height:'100vh',
             backgroundImage: `url(${fundo})`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: '100%',

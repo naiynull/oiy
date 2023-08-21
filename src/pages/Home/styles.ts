@@ -31,7 +31,7 @@ export const Texs = styled.section`
     display: flex;
     justify-content:center;
     padding-right:25rem;
-    margin-top: 45vh;
+    margin-top: 40vh;
   }
 
     #li-cads {
