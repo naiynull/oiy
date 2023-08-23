@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
-import te from "../../assets/fundo.png"
+
 
 export const Inicial = styled.main`
     height: 100vh;

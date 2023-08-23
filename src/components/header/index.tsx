@@ -1,5 +1,5 @@
 import * as S from "./styles"
-import logo from "../../assets/logo.png"
+import logo from "../../assets/geral/logo.png"
 
 
 
