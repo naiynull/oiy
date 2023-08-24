@@ -1,6 +1,5 @@
 import * as S from "./styles"
-import teste from "../../assets/fundo01.jpg"
-import fundo from "../../assets/geral/fundo.gif"
+
 {/*imagens do zelda 01*/ }
 import zelda11 from "../../assets/zeldajogo01/d1.webp"
 import zelda14 from "../../assets/zeldajogo01/a1.jpg"
@@ -25,33 +24,24 @@ import zelda42 from "../../assets/zeldajogo04/b4.webp"
 import zelda43 from "../../assets/zeldajogo04/c4.jpeg"
 import zelda44 from "../../assets/zeldajogo04/d4.jpg"
 import zeldam4 from "../../assets/zeldajogo04/fundo04.jpg"
-{/*imagens do zelda 05*/ }
-import zelda51 from "../../assets/zeldajogo05/a5.png"
-import zelda52 from "../../assets/zeldajogo05/b5.jpg"
-import zelda53 from "../../assets/zeldajogo05/c5.jpeg"
-import zelda54 from "../../assets/zeldajogo05/d5.webp"
-import zeldam5 from "../../assets/zeldajogo05/fundo05.jpg"
 import { ComponentHeader } from "../../components"
 
 export function Sinopse() {
     return (
 
         <section style={{
-            height: '100vh',
-            backgroundImage: `url(${fundo})`,
+            height: '540vh',
+            background: `linear-gradient(180deg, rgba(83, 99, 98, 0.73) 0%, rgba(209, 236, 241, 0.65) 18.75%, rgba(155, 158, 164, 0.28) 100%)`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: '100%',
         }}>
             <ComponentHeader />
 
-            <S.textot>
-
-                {/*primeiro jogo do zelda*/}
-
+            {/*primeiro jogo do zelda*/}
+            <S.tata>
                 <div className="main">
 
                     <h1>The Legend of Zelda a Link to the Past</h1>
-
 
                     <h2>Nitendo</h2>
                     <p>Super Nintendo</p>
@@ -85,25 +75,20 @@ export function Sinopse() {
                                 <p>Em A Link to the Past, ocorre uma das primeiras demonstrações via videogame de que maltratar animais não é legal. Se Link insistir em agredir os Cuccos (aquelas galinhas simpáticas), aparecerá um bando feroz delas do céu, capaz de nocauteá-lo se não cair fora rapidinho.</p>
                             </div>
                         </div>
-
                     </div>
-
                     <div className="content">
                         <img src={zeldam} alt="Bear" width='100%' />
                         <h3>ctrl de aventuras</h3>
                         <p>Numa noite escura e de tempestade, o jovem Link embarca numa aventura inesquecível, tanto para ele como para ti! A Princess Zelda foi capturada e um mago maléfico tenta libertar Ganon, o rei das trevas. Apenas Link tem a coragem para salvar Hyrule!.</p>
-
                     </div>
-
                 </div>
-            </S.textot>
+            </S.tata>
 
             {/*segundo jogo do zelda*/}
             <S.tata>
                 <div className="main">
 
                     <h1>The Legend of Zelda: Link's Awakening</h1>
-
 
                     <h2>1993</h2>
                     <p>Game Boy</p>
@@ -137,23 +122,20 @@ export function Sinopse() {
                                 <p>Na edição de 2019, a Nintendo não inventou nem adicionou nada ao conteúdo da história principal. Trata-se de uma recriação fiel do jogo original, o que agrada aos puristas, mas pode incomodar quem esperava mais por um jogo que custa o valor de um lançamento de primeira linha da empresa.</p>
                             </div>
                         </div>
-
                     </div>
-
                     <div className="content">
                         <img src={zeldam2} alt="Bear" width='100%' />
                         <h3>Ctrl de aventuras</h3>
                         <p>Link acorda em uma estranha terra longe de Hyrule, onde animais falam e monstros vagueiam.</p>
                     </div>
-
                 </div>
             </S.tata>
+
             {/*terceiro jogo do zelda*/}
             <S.tata>
                 <div className="main">
 
                     <h1>The Legend of Zelda: Oracle of Seasons and Oracle of Ages</h1>
-
 
                     <h2>2001</h2>
                     <p>Game Boy Color</p>
@@ -187,23 +169,20 @@ export function Sinopse() {
                                 <p>Exatamente porque o brilhantismo do jogo não deve ser retratado apenas à sua época e, infelizmente, como dito acima, ele é um tanto quanto esquecido na listagem “dos melhores Zeldas”, não marcando presença na lembrança afetiva quando comparados com outros jogos da franquia.</p>
                             </div>
                         </div>
-
                     </div>
-
                     <div className="content">
                         <img src={zeldam3} alt="Bear" width='100%' />
                         <h3>Ctrl de aventuras</h3>
                         <p> A árvore Maku de Labrinna não é muito alta (provavelmente é até mais jovem que a de Holodrum), dando até pra chegar no topo dela, depois de subir um pouco pelas trepadeiras no tronco</p>
                     </div>
-
                 </div>
             </S.tata>
+
             {/*quarto jogo do zelda*/}
             <S.tata>
                 <div className="main">
 
                     <h1>The Legend of Zelda: A Link Between Worlds</h1>
-
 
                     <h2>2013</h2>
                     <p>Nintendo 3DS</p>
@@ -237,19 +216,14 @@ export function Sinopse() {
                                 <p>E uma curiosidade chamou a atenção: A Link Between Worlds começou como uma sequência de Spirit Tracks (DS) e não de A Link to the Past (SNES).</p>
                             </div>
                         </div>
-
                     </div>
-
                     <div className="content">
                         <img src={zeldam4} alt="Bear" width='100%' />
                         <h3>Ctrl de aventuras</h3>
                         <p>A história se passa em uma Hyrule devastada e pequena. Após Ganon e seus lacaios invadirem o reino para roubar a Triforce, a princesa Zelda divide a Triforce da sabedoria em oito pedaços para impedir o vilão de obtê-la. Cabe a Link juntar tudo e derrotar o antagonista.</p>
                     </div>
-
                 </div>
             </S.tata>
-            {/*quinto jogo do zelda*/}
-     
 
         </section >
 

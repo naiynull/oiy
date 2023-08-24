@@ -7,7 +7,7 @@ export const Inicial = styled.main`
 `
 
 export const tata = styled.section`
- display: flex;
+ 
 * {
   box-sizing: border-box;
 }
@@ -29,19 +29,19 @@ h1 {
   margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column */
+/* Adicione preenchimento ENTRE cada coluna*/
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Crie quatro colunas iguais que flutuam uma ao lado da outra */
 .column {
   float: left;
   width: 25%;
 }
 
-/* Clear floats after rows */ 
+/* limpar depois de linhas */ 
 .row:after {
   content: "";
   display: table;
@@ -54,14 +54,14 @@ h1 {
   padding: 10px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/*Layout responsivo - cria um layout de duas colunas em vez de quatro colunas*/
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Layout responsivo - faz com que as duas colunas sejam empilhadas uma sobre a outra, em vez de uma ao lado da outra */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -69,73 +69,5 @@ h1 {
 }
  `
 
-
-
-export const textot = styled.section`
-  margin-top:80vh;
- display: flex;
-  img:hover{
-    
-  }
-* {
-  box-sizing: border-box;
-}
-
-
-/* Center website */
-.main {
-   
-  max-width: 1000px;
-  margin: auto;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-.row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
- `
 
 

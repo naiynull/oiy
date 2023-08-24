@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
 
-export const Hamburguer = styled.section `
+export const Hamburguer = styled.section`
     div{
         position: fixed;
         width: 35px;
@@ -44,7 +44,7 @@ export const Hamburguer = styled.section `
             }
             
             :hover {
-                    color: ${colors.lite};
+                    color: ${colors.preto};
             }
         }
     }
@@ -69,7 +69,7 @@ export const Hamburguer = styled.section `
     }
 
     .hamburguer:checked ~ div span{
-        background-color: ${colors.lite};
+        background-color: ${colors.preto};
     }
 
     .hamburguer:checked ~ div span:nth-child(1){

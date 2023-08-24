@@ -37,7 +37,7 @@ export const Texs = styled.section`
         display: flex;
         text-align: center;
         border: none;
-        font-size: 38px;
+        font-size: 27px;
         text-transform: uppercase;
         color: ${colors.white};
         text-decoration: none;
@@ -59,7 +59,59 @@ export const Texs = styled.section`
         background: linear-gradient(180deg, #ABDBB8 0%, rgba(255, 255, 255, 0.00) 100%);
         transition: width 2s, height 3s;
     }
-
+    @media(max-width: 1024px) {
+        #li-cads {
+            font-size: 17px;
+        }
+    }
+    @media(max-width: 924px) {
+        #li-cads {
+            font-size: 17px;
+        }
+        li{
+            margin-top: 27vh;
+        }
+    }
+    @media(max-width: 716px) {
+        #li-cads {
+            font-size: 17px;
+        }
+        li{
+            margin-top: 19vh;
+        }
+    }
+    @media(max-width: 588px) {
+        #li-cads {
+            font-size: 12px;
+        }
+        li{
+            margin-top: 13vh;
+        }
+    }
+    @media(max-width: 450px) {
+        #li-cads {
+            font-size: 11px;
+        }
+        li{
+            margin-top: 9vh;
+        }
+    }
+    @media(max-width: 358px) {
+        #li-cads {
+            font-size: 10px;
+        }
+        li{
+            margin-top: 7vh;
+        }
+    }
+    @media(max-width: 320px) {
+        #li-cads {
+            font-size: 9px;
+        }
+        li{
+            margin-top: 5vh;
+        }
+    }
 `
 
 export const Video = styled.section`
