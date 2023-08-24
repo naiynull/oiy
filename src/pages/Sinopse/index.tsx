@@ -2,7 +2,7 @@ import * as S from "./styles"
 import teste from "../../assets/fundo01.jpg"
 import fundo from "../../assets/geral/fundo.gif"
 {/*imagens do zelda 01*/ }
-import zelda11 from "../../assets/zeldajogo01/d1.avif"
+import zelda11 from "../../assets/zeldajogo01/d1.webp"
 import zelda14 from "../../assets/zeldajogo01/a1.jpg"
 import zelda13 from "../../assets/zeldajogo01/b1.avif"
 import zelda12 from "../../assets/zeldajogo01/d1.webp"
