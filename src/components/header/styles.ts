@@ -11,6 +11,9 @@ export const Header = styled.header`
   picture {
     margin-left: 0.5rem;
     padding: 0.5rem;
+    @media (max-width: 840px) {
+    display: none;
+  }
   }
   nav{
     width: 90%;
@@ -49,8 +52,10 @@ width: 40px;
 
 export const NavBar = styled.nav`
   /* Navegação */
-
-background-color: none;
+  background-color: none;
+  @media (max-width: 840px) {
+    display: none;
+  }
 `
 
 export const ComponentHamburguer = styled.section`

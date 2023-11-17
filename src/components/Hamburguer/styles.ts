@@ -2,6 +2,9 @@ import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
 
 export const Hamburguer = styled.section`
+display: none;
+@media (max-width: 840px) {
+    display: block;
     div{
         position: fixed;
         width: 35px;
@@ -17,6 +20,7 @@ export const Hamburguer = styled.section`
             margin-bottom: 10px;
             border-radius: 3px;
             transition: all ease .2s;
+            background-color: ${colors.white};
         }
     }
 
@@ -44,7 +48,7 @@ export const Hamburguer = styled.section`
             }
             
             :hover {
-                    color: ${colors.preto};
+                    color: ${colors.white};
             }
         }
     }
@@ -69,7 +73,7 @@ export const Hamburguer = styled.section`
     }
 
     .hamburguer:checked ~ div span{
-        background-color: ${colors.preto};
+        background-color: ${colors.white};
     }
 
     .hamburguer:checked ~ div span:nth-child(1){
@@ -91,4 +95,5 @@ export const Hamburguer = styled.section`
         right: 0;
         display: block;
     }
+}
 `
