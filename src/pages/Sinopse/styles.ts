@@ -23,7 +23,9 @@ export const tata = styled.section`
 h1 {
   font-size: 50px;
   word-break: break-all;
+  
 }
+
 
 .row {
   margin: 8px -16px;
@@ -50,7 +52,7 @@ h1 {
 
 /* Content */
 .content {
-  background-color: white;
+  backdrop-filter: blur(40px);
   padding: 10px;
 }
 

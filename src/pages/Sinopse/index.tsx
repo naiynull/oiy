@@ -1,5 +1,5 @@
 import * as S from "./styles"
-
+import fundo02 from "../../assets/fundo02.gif"
 {/*imagens do zelda 01*/ }
 import zelda11 from "../../assets/zeldajogo01/d1.webp"
 import zelda14 from "../../assets/zeldajogo01/a1.jpg"
@@ -30,9 +30,8 @@ export function Sinopse() {
     return (
 
         <section style={{
-            height: '540vh',
-            background: `linear-gradient(180deg, rgba(83, 99, 98, 0.73) 0%, rgba(209, 236, 241, 0.65) 18.75%, rgba(155, 158, 164, 0.28) 100%)`,
-            backgroundRepeat: 'no-repeat',
+           
+            backgroundImage: `url(${fundo02})`,
             backgroundSize: '100%',
         }}>
             <ComponentHeader />
