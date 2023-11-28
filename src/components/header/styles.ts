@@ -17,7 +17,7 @@ export const Header = styled.header`
   }
   nav{
     width: 90%;
-    padding-left:2rem;
+    padding-left: 2rem;
   }
   img{
     width:50px;
