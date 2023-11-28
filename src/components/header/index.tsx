@@ -1,7 +1,7 @@
 import * as S from "./styles"
 import logo from "../../assets/geral/logo.png"
 import { ComponentHamburguer } from "../index"
-import { useEffect, useState } from "react"
+
 
 
 export function Header() {

@@ -1,4 +1,4 @@
-import * as S from "./styles"
+
 import { ComponentHeader } from "../../components"
 
 export function Personagens() {

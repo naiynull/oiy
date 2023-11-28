@@ -1,7 +1,7 @@
 import * as S from "./styles"
 import fundo from "../../assets/geral/j.gif"
 import { ComponentHeader } from "../../components"
-import { ComponentHamburguer } from "../../components"
+
 
 export function Home() {
     return (
