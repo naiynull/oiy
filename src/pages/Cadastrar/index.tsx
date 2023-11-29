@@ -4,7 +4,7 @@ import { FaKey } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
-import { ComponentHeader } from "../../components"
+
 import * as S from "./styles";
 import { IErrorResponse, IUser } from "../../interfaces/user.interface";
 import { AxiosError } from "axios";
@@ -38,7 +38,7 @@ export function Cadastrar() {
     }
   }
   return (
-    <section style={{
+     <section style={{
       height:'100vh',
       backgroundImage: `url(${fundo})`,
       backgroundRepeat: 'no-repeat',
