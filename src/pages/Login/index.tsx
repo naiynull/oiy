@@ -45,7 +45,7 @@ export function Login() {
       backgroundRepeat: 'no-repeat',
       backgroundSize: '100%',
       }}>
-         <ComponentHeader />
+        
     <S.Section>
       <h1>Login</h1>
       <form method="post" onSubmit={handleSubmit}>

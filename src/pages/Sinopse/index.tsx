@@ -1,5 +1,5 @@
 import * as S from "./styles"
-import fundo02 from "../../assets/fundo02.gif"
+import fundo02 from "../../assets/geral/fundo02.gif"
 {/*imagens do zelda 01*/ }
 import zelda11 from "../../assets/zeldajogo01/d1.webp"
 import zelda14 from "../../assets/zeldajogo01/a1.jpg"

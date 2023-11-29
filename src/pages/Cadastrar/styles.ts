@@ -7,12 +7,13 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 2rem;
+
   h1 {
-    color: ${colors.preto};
+    color: ${colors.white};
     font-weight: 500;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 4rem;
+    font-family: 'The Wild Breath of Zelda', sans-serif;
   }
   form {
     backdrop-filter: blur(40px);
@@ -43,12 +44,15 @@ export const Section = styled.section`
         text-decoration: none;
         color: ${colors.preto};
         font-weight: bold;
+        font-size: 19px;
        
       }
       button{
+        cursor: pointer;
         text-decoration: none;
         background-color: ${colors.lite};
         font-size: 19px;
+        padding: 0.2rem;
         color: ${colors.white};
       }
   }

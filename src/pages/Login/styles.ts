@@ -51,6 +51,7 @@ export const Section = styled.section`
        
       }
       button{
+        cursor: pointer;
         text-decoration: none;
         background-color: ${colors.lite};
         font-size: 17px;
