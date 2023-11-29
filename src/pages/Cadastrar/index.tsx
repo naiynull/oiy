@@ -4,11 +4,12 @@ import { FaKey } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
-
+import { ComponentHeader } from "../../components"
 import * as S from "./styles";
 import { IErrorResponse, IUser } from "../../interfaces/user.interface";
 import { AxiosError } from "axios";
 import { apiUser } from "../../services/data";
+import  fundo from "../../assets/geral/fundo03.jpg"
 
 export function Cadastrar() {
   const navigate = useNavigate();
@@ -37,6 +38,13 @@ export function Cadastrar() {
     }
   }
   return (
+    <section style={{
+      height:'100vh',
+      backgroundImage: `url(${fundo})`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: '100%',
+      }}>
+         <ComponentHeader />
     <S.Section>
       <h1>Cadastre-se</h1>
       <form method="post" onSubmit={handleSubmit}>
@@ -70,5 +78,6 @@ export function Cadastrar() {
         </p>
       </form>
     </S.Section>
+    </section>
   );
 };

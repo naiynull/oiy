@@ -11,13 +11,17 @@ export const Section = styled.section`
     color: ${colors.white};
     font-weight: 500;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 4rem;
+    font-family: 'The Wild Breath of Zelda', sans-serif;
   }
   form {
-    background-color: ${colors.white};
+    backdrop-filter: blur(40px);
     border: 0.2rem solid ${colors.lite};
     border-radius: 1rem;
     padding: 1.5rem;
+    height: 20rem;
+    width: 20rem;
+    font-size: 20px;
     div {
       background-color: ${colors.white};
       border: 0.15rem solid ${colors.lite};
@@ -39,11 +43,21 @@ export const Section = styled.section`
     }
     p {
       margin-top: 1rem;
+     
       a {
         text-decoration: none;
         color: ${colors.preto};
         font-weight: bold;
+       
       }
+      button{
+        text-decoration: none;
+        background-color: ${colors.lite};
+        font-size: 17px;
+        color: ${colors.white};
+      }
+
     }
+
   }
 `

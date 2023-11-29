@@ -15,10 +15,11 @@ export const Section = styled.section`
     font-size: 2rem;
   }
   form {
-    background-color: ${colors.white};
+    backdrop-filter: blur(40px);
     border: 0.2rem solid ${colors.lite};
     border-radius: 1rem;
     padding: 1.5rem;
+    font-size: 20px;
     div {
       background-color: ${colors.white};
       border: 0.15rem solid ${colors.lite};
@@ -38,13 +39,17 @@ export const Section = styled.section`
         background-color: transparent;
       }
     }
-    p {
-      margin-top: 1rem;
-      a {
+    a {
         text-decoration: none;
         color: ${colors.preto};
         font-weight: bold;
+       
       }
-    }
+      button{
+        text-decoration: none;
+        background-color: ${colors.lite};
+        font-size: 19px;
+        color: ${colors.white};
+      }
   }
 `

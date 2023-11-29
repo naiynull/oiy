@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaKey } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
-
+import { ComponentHeader } from "../../components"
 import * as S from "./styles";
 import { useAuth } from "../../hooks/authcontext";
 import { IErrorResponse, IUser } from "../../interfaces/user.interface";
@@ -38,12 +38,14 @@ export function Login() {
   }
 
   return (
+   
     <section style={{
       height:'100vh',
       backgroundImage: `url(${fundo})`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: '100%',
       }}>
+         <ComponentHeader />
     <S.Section>
       <h1>Login</h1>
       <form method="post" onSubmit={handleSubmit}>
