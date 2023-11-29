@@ -18,24 +18,8 @@ export function Home() {
          
           
             <S.Texs>
-            {
-                user ? (
-                  <ul>
-                    <li>
-                      <Link to="/adm/message">Mensagem</Link>
-                    </li>
-                    <li>
-                      <button onClick={logout}>{user.name} <GrLogout /></button>
-                    </li>
-                  </ul>
-                ) : (
-                  <ul>
-                    <li>
-                      <Link to="/login">Login</Link>
-                    </li>
-                    </ul>
-                )
-              }
+           
+       
             </S.Texs> 
         </section>
 

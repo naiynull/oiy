@@ -7,6 +7,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../contexts/authContext";
 
 
+
 export function Header() {
   const { user, signOut } = useContext(AuthContext)
   const navigate = useNavigate();
@@ -36,7 +37,7 @@ export function Header() {
               </ul>
               {
                 user ? (
-                  <ul>
+                 <ul className="locad">
                     <li>
                       <Link to="/adm/message">Mensagem</Link>
                     </li>
@@ -48,6 +49,9 @@ export function Header() {
                   <ul>
                     <li>
                       <Link to="/login">Login</Link>
+                    </li>
+                    <li>
+                      <Link to="/cadastrar">Cadastrar</Link>
                     </li>
                     </ul>
                 )
