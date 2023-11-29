@@ -18,7 +18,7 @@ export const Header = styled.header`
   }
 
   nav {
-    width: %;
+    width: 100%;
     padding-left: 2rem;
     display: flex;
     align-items: center; /* Adicionado para centralizar verticalmente */
@@ -40,8 +40,10 @@ export const Header = styled.header`
   }
 
   nav ul a {
+    display: flex;
     text-decoration: none;
     color: ${colors.white};
+    padding:6rem;
   }
 
   nav ul li:hover {
